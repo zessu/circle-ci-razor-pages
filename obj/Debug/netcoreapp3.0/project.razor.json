@@ -14354,6 +14354,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/Pages/ViewToDoItems.cshtml",
+      "TargetPath": "Pages/ViewToDoItems.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages/_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -14376,6 +14381,16 @@
     {
       "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/Pages/About.cshtml",
+      "TargetPath": "Pages/About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/Pages/NewToDoItem.cshtml",
+      "TargetPath": "Pages/NewToDoItem.cshtml",
       "FileKind": "mvc"
     }
   ],

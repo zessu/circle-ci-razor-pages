@@ -3,4 +3,12 @@
 @{
 }
 
-<h2>Create new ToDO item</h2>
+<h2>Create a new To-DO Item</h2>
+
+<div>
+  <form method="post">
+    <input class="form-control" placeholder="Item Name" asp-for="ToDoItem.name"/>
+    <input class="form-control" placeholder="Item Description" asp-for="ToDoItem.description" />
+    <button type="submit" class="btn btn-primary">Add Item</button>
+  </form>
+</div>

@@ -9,7 +9,8 @@ namespace circle_ci_asp_net_razor_pages.Models
     [MinLength(10)]
     [Required]
     public string description { get; set; }
-
+    [Required]
+    public string name { get; set; }
     [DataType(DataType.Date)]
     public DateTime CreatedAt { get; set; }
     [DataType(DataType.Date)]

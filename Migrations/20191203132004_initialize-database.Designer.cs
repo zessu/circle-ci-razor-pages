@@ -10,7 +10,7 @@ using circle_ci_asp_net_razor_pages.Data;
 namespace circle_ci_asp_net_razor_pages.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20191201121444_initialize-database")]
+    [Migration("20191203132004_initialize-database")]
     partial class initializedatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,13 @@ namespace circle_ci_asp_net_razor_pages.Migrations
 
                     b.Property<string>("description")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasColumnType("character varying(200)")
+                        .HasMaxLength(200);
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("character varying(30)")
+                        .HasMaxLength(30);
 
                     b.HasKey("Id");
 

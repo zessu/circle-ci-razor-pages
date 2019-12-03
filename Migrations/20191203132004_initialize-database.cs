@@ -12,7 +12,8 @@ namespace circle_ci_asp_net_razor_pages.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(nullable: false),
-                    description = table.Column<string>(nullable: false),
+                    description = table.Column<string>(maxLength: 200, nullable: false),
+                    name = table.Column<string>(maxLength: 30, nullable: false),
                     CreatedAt = table.Column<DateTime>(nullable: false),
                     UpdatedAt = table.Column<DateTime>(nullable: false)
                 },

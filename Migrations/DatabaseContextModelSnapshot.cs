@@ -33,7 +33,13 @@ namespace circle_ci_asp_net_razor_pages.Migrations
 
                     b.Property<string>("description")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasColumnType("character varying(200)")
+                        .HasMaxLength(200);
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("character varying(30)")
+                        .HasMaxLength(30);
 
                     b.HasKey("Id");
 

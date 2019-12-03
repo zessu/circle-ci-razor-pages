@@ -3,9 +3,9 @@
 @{
 }
 
-<h2>View all todo items</h2>
+<h2 style="margin-bottom: 30px">View all todo items</h2>
 
-<div class="flex-container">
+<div class="flex-container" style="margin-bottom: 10px;">
   @{
       foreach(var item in @Model.ToDoItems) {
           <div class="card" style="width: 18rem;">
@@ -18,3 +18,5 @@
       }
   }
 </div>
+
+<a asp-page="NewToDoItem">Create New Item</a>

@@ -5,16 +5,16 @@
 
 <h2>View all todo items</h2>
 
-@{
-  foreach(var item in @Model.ToDoItems) {
-    <div class="flex-container">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">@item.name</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Description</h6>
-          <p class="card-text">@item.description</p>
-        </div>
-      </div>
-    </div>
+<div class="flex-container">
+  @{
+      foreach(var item in @Model.ToDoItems) {
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">@item.name</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Description</h6>
+              <p class="card-text">@item.description</p>
+            </div>
+          </div>
+      }
   }
-}
+</div>

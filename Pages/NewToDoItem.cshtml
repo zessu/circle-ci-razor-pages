@@ -5,6 +5,8 @@
 
 <h2>Create a new To-DO Item</h2>
 
+<a asp-page="ViewToDoItems">View Your TODOs</a>
+
 <form method="post" style="margin-bottom: 10px;">
   <div class="form-group row">
     <label asp-for="ToDoItem.name">Name</label>
@@ -18,5 +20,3 @@
   </div>
     <button type="submit" class="btn btn-primary">Add Item</button>
 </form>
-
-<a asp-page="ViewToDoItems">View Your TODOs</a>

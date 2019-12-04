@@ -5,5 +5,10 @@ dotnet run
 
 You need to have Dotnet Core version 3 installed to run these examples.
 
+TODOITEMS
 
-<img src="wwwroot/main.png" />
+<img src="wwwroot/allitems.png" />
+
+NEWTODOITEM
+
+<img src="wwwroot/new.png" />

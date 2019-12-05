@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using circle_ci_asp_net_razor_pages.Data;
 using circle_ci_asp_net_razor_pages.Models;
-using System.Linq;
 
 namespace circle_ci_asp_net_razor_pages.Pages
 {

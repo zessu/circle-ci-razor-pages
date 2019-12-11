@@ -59,3 +59,8 @@
 /Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/bin/Debug/netcoreapp3.0/System.Diagnostics.DiagnosticSource.dll
 /Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/bin/Debug/netcoreapp3.0/System.Runtime.CompilerServices.Unsafe.dll
 /Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/bin/Debug/netcoreapp3.0/out/web.config
+/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/bin/Debug/netcoreapp3.0/out/appsettings.Development.json
+/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/bin/Debug/netcoreapp3.0/out/appsettings.json
+/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/bin/Debug/netcoreapp3.0/out/circle-ci-asp-net-razor-pages.deps.json
+/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/bin/Debug/netcoreapp3.0/out/circle-ci-asp-net-razor-pages.runtimeconfig.json

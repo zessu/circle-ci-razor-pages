@@ -1,5 +1,23 @@
-version: 2.0
+version: 2.1
+
+orbs:
+  windows: circleci/windows@2.2.0
 jobs:
   build:
-    docker:
-      - image:
+    description: Build application with Release configuration
+    executor:
+      name: windows/default
+    steps:
+      - checkout
+      - run:
+          name: "Restore application dependencies"
+          command: "dotnet restore"
+      - run:
+          name: "create directory for build"
+          command: "mkdir out"
+      - run:
+          name: "Publish code to out dir"
+          command: "dotnet publish -c Release -o out"
+      - store_artifacts:
+          path: C:\Users\circleci\project\out
+          destination: TODOAPP

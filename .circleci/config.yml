@@ -2,6 +2,13 @@ version: 2.1
 
 orbs:
   windows: circleci/windows@2.2.0
+commands:
+  restoreandpublish:
+    description: "Restore dependencies and build app for production inside an out directory"
+    steps:
+      - run: "dotnet restore"
+      - run:  "mkdir out"
+      - run:  "dotnet publish -c Release -o out"
 jobs:
   build:
     description: Build application with Release configuration
@@ -9,15 +16,7 @@ jobs:
       name: windows/default
     steps:
       - checkout
-      - run:
-          name: "Restore application dependencies"
-          command: "dotnet restore"
-      - run:
-          name: "create directory for build"
-          command: "mkdir out"
-      - run:
-          name: "Publish code to out dir"
-          command: "dotnet publish -c Release -o out"
+      - restoreandpublish
       - store_artifacts:
           path: C:\Users\circleci\project\out
           destination: TODOAPP

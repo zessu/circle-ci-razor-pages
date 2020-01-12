@@ -13,11 +13,11 @@ namespace circle_ci_asp_net_razor_pages.Pages
   {
     [BindProperty]
     public Todo ToDoItem { get; set; }
-    public DatabaseContext _context { get; }
+    public DatabaseContext Context { get; }
 
     public NewToDoItemModel(DatabaseContext context)
     {
-      _context = context;
+      Context = context;
     }
     public void OnGet()
     {
@@ -29,8 +29,8 @@ namespace circle_ci_asp_net_razor_pages.Pages
       {
         return Page();
       }
-      await _context.Todo.AddAsync(ToDoItem);
-      await _context.SaveChangesAsync();
+      await Context.Todo.AddAsync(ToDoItem);
+      await Context.SaveChangesAsync();
       return RedirectToPage("ViewToDoItems");
     }
   }

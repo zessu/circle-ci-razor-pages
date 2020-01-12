@@ -7,8 +7,8 @@ commands:
     description: "Restore dependencies and build app for production inside an out directory"
     steps:
       - run: "dotnet restore"
-      - run:  "mkdir out"
-      - run:  "dotnet publish -c Release -o out"
+      - run: "mkdir out"
+      - run: "dotnet publish -c Release -o out"
 jobs:
   build:
     description: Build application with Release configuration

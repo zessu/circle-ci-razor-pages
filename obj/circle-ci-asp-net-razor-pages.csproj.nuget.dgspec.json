@@ -1,29 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj": {}
+    "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj": {}
   },
   "projects": {
-    "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj": {
+    "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj",
+        "projectUniqueName": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj",
         "projectName": "circle-ci-asp-net-razor-pages",
-        "projectPath": "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj",
+        "projectPath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj",
         "packagesPath": "/Users/makenzi/.nuget/packages/",
-        "outputPath": "/Users/makenzi/dev/projects/dotnet/circle-ci-asp-net-razor-pages/obj/",
+        "outputPath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/makenzi/.nuget/NuGet/NuGet.Config"
+          "/Users/makenzi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "http://packages.appriver.corp/nuget/public": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.appriver.corp/nuget/arnuget": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -70,6 +72,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.0.2, 3.0.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -78,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
         }
       }
     }

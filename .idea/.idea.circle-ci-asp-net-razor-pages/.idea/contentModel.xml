@@ -50,12 +50,23 @@
         <e p="ViewToDoItems.cshtml" t="Include" />
         <e p="ViewToDoItems.cshtml.cs" t="Include" />
       </e>
+      <e p="prod.dockerfile" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="README.md" t="Include" />
       <e p="Startup.cs" t="Include" />
+      <e p="Todo.Tests" t="Include">
+        <e p="obj" t="Include">
+          <e p="project.assets.json" t="Include" />
+          <e p="Todo.Tests.csproj.nuget.cache" t="Include" />
+          <e p="Todo.Tests.csproj.nuget.dgspec.json" t="Include" />
+          <e p="Todo.Tests.csproj.nuget.g.props" t="Include" />
+          <e p="Todo.Tests.csproj.nuget.g.targets" t="Include" />
+        </e>
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
       <e p="wwwroot" t="Include">
         <e p="allitems.png" t="Include" />
         <e p="css" t="Include">
@@ -122,6 +133,6 @@
       </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_circle-ci-asp-net-razor-pages.-1234092499.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_circle-ci-asp-net-razor-pages.1163201954.00" t="ExcludeRecursive" />
   </component>
 </project>

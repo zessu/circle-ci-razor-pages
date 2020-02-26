@@ -1,16 +1,10 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
+FROM microsoft/aspnetcore-build
+
+LABEL author="zessu"
+
+ENV DOTNET_USE_POLLING_FILE_WATCHER=1
+ENV ASPNETCORE_URLS=http://*:5000
+
 WORKDIR /app
 
-
-COPY ./*.csproj .
-RUN dotnet restore
-
-COPY . .
-RUN mkdir out
-RUN dotnet publish -c Release -o out
-
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.0 AS runtime
-WORKDIR /app
-COPY --from=build /app/out .
-EXPOSE 80
-ENTRYPOINT ["dotnet", "circle-ci-asp-net-razor-pages.dll"]
+CMD ["/bin/bash", "-c", "dotnet restore && dotnet watch run"]

@@ -13,7 +13,7 @@ namespace circle_ci_asp_net_razor_pages.Pages
   {
 
     public List<Todo> ToDoItems { get; set; }
-    public DatabaseContext Context { get; }
+    private DatabaseContext Context { get; }
 
     public ViewToDoItemsModel(DatabaseContext context)
     {

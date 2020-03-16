@@ -1,20 +1,23 @@
 ﻿<Properties StartupConfiguration="{3B01C509-34B2-4586-8FBA-FA79D3DCAC19}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Pages/NewToDoItem.cshtml.cs">
     <Files>
-      <File FileName="Pages/NewToDoItem.cshtml.cs" Line="34" Column="46" />
+      <File FileName="Pages/NewToDoItem.cshtml.cs" Line="15" Column="14" />
       <File FileName="Pages/ViewToDoItems.cshtml.cs" Line="28" Column="1" />
+      <File FileName="Models/todo.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="circle-ci-asp-net-razor-pages" expanded="True">
             <Node name="circle-ci-asp-net-razor-pages" expanded="True">
+              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="NewToDoItem.cshtml" expanded="True" />
-                <Node name="ViewToDoItems.cshtml" expanded="True">
-                  <Node name="ViewToDoItems.cshtml.cs" selected="True" />
+                <Node name="NewToDoItem.cshtml" expanded="True">
+                  <Node name="NewToDoItem.cshtml.cs" selected="True" />
                 </Node>
+                <Node name="ViewToDoItems.cshtml" expanded="True" />
               </Node>
+              <Node name="Todo.Tests" expanded="True" />
             </Node>
           </Node>
         </State>

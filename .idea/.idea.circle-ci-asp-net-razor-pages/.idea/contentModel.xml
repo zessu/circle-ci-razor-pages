@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p=".dockerignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
@@ -8,6 +14,150 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="circle-ci-asp-net-razor-pages.csproj" t="IncludeRecursive" />
       <e p="circle-ci-asp-net-razor-pages.sln" t="IncludeFlat" />
+      <e p="circle-ci-razor-pages.tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="circle-ci-razor-pages.tests.deps.json" t="Include" />
+              <e p="circle-ci-razor-pages.tests.dll" t="Include" />
+              <e p="circle-ci-razor-pages.tests.pdb" t="Include" />
+              <e p="circle-ci-razor-pages.tests.runtimeconfig.dev.json" t="Include" />
+              <e p="circle-ci-razor-pages.tests.runtimeconfig.json" t="Include" />
+              <e p="cs" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="de" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="es" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="fr" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="it" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="ja" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="ko" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="Microsoft.TestPlatform.CommunicationUtilities.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.CoreUtilities.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.CrossPlatEngine.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.PlatformAbstractions.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.Utilities.dll" t="Include" />
+              <e p="Microsoft.VisualStudio.CodeCoverage.Shim.dll" t="Include" />
+              <e p="Microsoft.VisualStudio.TestPlatform.Common.dll" t="Include" />
+              <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" t="Include" />
+              <e p="Newtonsoft.Json.dll" t="Include" />
+              <e p="pl" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="pt-BR" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="ru" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="System.Xml.XPath.XmlDocument.dll" t="Include" />
+              <e p="testhost.dll" t="Include" />
+              <e p="tr" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="xunit.abstractions.dll" t="Include" />
+              <e p="xunit.assert.dll" t="Include" />
+              <e p="xunit.core.dll" t="Include" />
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+              <e p="xunit.runner.utility.netcoreapp10.dll" t="Include" />
+              <e p="xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+              <e p="zh-Hans" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="zh-Hant" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="circle-ci-razor-pages.tests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="circle-ci-razor-pages.tests.csproj.nuget.cache" t="Include" />
+          <e p="circle-ci-razor-pages.tests.csproj.nuget.dgspec.json" t="Include" />
+          <e p="circle-ci-razor-pages.tests.csproj.nuget.g.props" t="Include" />
+          <e p="circle-ci-razor-pages.tests.csproj.nuget.g.targets" t="Include" />
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="circle-ci-razor-pages.tests.AssemblyInfo.cs" t="Include" />
+              <e p="circle-ci-razor-pages.tests.AssemblyInfoInputs.cache" t="Include" />
+              <e p="circle-ci-razor-pages.tests.assets.cache" t="Include" />
+              <e p="circle-ci-razor-pages.tests.csproj.CopyComplete" t="Include" />
+              <e p="circle-ci-razor-pages.tests.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="circle-ci-razor-pages.tests.csprojAssemblyReference.cache" t="Include" />
+              <e p="circle-ci-razor-pages.tests.dll" t="Include" />
+              <e p="circle-ci-razor-pages.tests.pdb" t="Include" />
+            </e>
+          </e>
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+        </e>
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
       <e p="Data" t="Include">
         <e p="DataContext.cs" t="Include" />
       </e>
@@ -57,16 +207,6 @@
       </e>
       <e p="README.md" t="Include" />
       <e p="Startup.cs" t="Include" />
-      <e p="Todo.Tests" t="Include">
-        <e p="obj" t="Include">
-          <e p="project.assets.json" t="Include" />
-          <e p="Todo.Tests.csproj.nuget.cache" t="Include" />
-          <e p="Todo.Tests.csproj.nuget.dgspec.json" t="Include" />
-          <e p="Todo.Tests.csproj.nuget.g.props" t="Include" />
-          <e p="Todo.Tests.csproj.nuget.g.targets" t="Include" />
-        </e>
-        <e p="UnitTest1.cs" t="Include" />
-      </e>
       <e p="wwwroot" t="Include">
         <e p="allitems.png" t="Include" />
         <e p="css" t="Include">
@@ -133,6 +273,6 @@
       </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_circle-ci-asp-net-razor-pages.1163201954.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_circle-ci-asp-net-razor-pages.1887952737.00" t="ExcludeRecursive" />
   </component>
 </project>

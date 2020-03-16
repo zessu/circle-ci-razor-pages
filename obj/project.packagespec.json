@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj",
+    "projectUniqueName": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/circle-ci-asp-net-razor-pages.csproj",
     "projectName": "circle-ci-asp-net-razor-pages",
-    "projectPath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj",
-    "outputPath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/obj/",
+    "projectPath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/circle-ci-asp-net-razor-pages.csproj",
+    "outputPath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -50,6 +50,10 @@
         "Npgsql.EntityFrameworkCore.PostgreSQL": {
           "target": "Package",
           "version": "[3.1.0-preview3, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
         }
       },
       "imports": [
@@ -62,12 +66,6 @@
       ],
       "assetTargetFallback": true,
       "warn": true,
-      "downloadDependencies": [
-        {
-          "name": "Microsoft.NETCore.App.Host.osx-x64",
-          "version": "[3.0.2, 3.0.2]"
-        }
-      ],
       "frameworkReferences": {
         "Microsoft.AspNetCore.App": {
           "privateAssets": "none"
@@ -76,7 +74,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
     }
   }
 }

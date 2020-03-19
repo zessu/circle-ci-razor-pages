@@ -14,7 +14,7 @@ namespace circle_ci_razor_pages.tests
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
-            builder.ConfigureServices(services =>
+            builder.ConfigureServices((IServiceCollection services) =>
             {
                 // Remove the app's ApplicationDbContext registration.
                 var descriptor = services.SingleOrDefault(

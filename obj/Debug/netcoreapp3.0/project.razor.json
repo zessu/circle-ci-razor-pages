@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/circle-ci-asp-net-razor-pages.csproj",
+  "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/circle-ci-asp-net-razor-pages.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -96,7 +96,8 @@
             "Documentation": "Specifies the parameter name for all child content expressions.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -193,7 +194,8 @@
             "Documentation": "Specifies the parameter name for all child content expressions.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -284,7 +286,8 @@
             "Documentation": "Specifies the parameter name for the 'NotAuthorized' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -324,7 +327,8 @@
             "Documentation": "Specifies the parameter name for the 'NotAuthorized' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -467,7 +471,8 @@
             "Documentation": "Specifies the parameter name for all child content expressions.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -608,7 +613,8 @@
             "Documentation": "Specifies the parameter name for all child content expressions.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -648,7 +654,8 @@
             "Documentation": "Specifies the parameter name for the 'Authorized' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -688,7 +695,8 @@
             "Documentation": "Specifies the parameter name for the 'Authorized' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -780,7 +788,8 @@
             "Documentation": "Specifies the parameter name for the 'ChildContent' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -820,7 +829,8 @@
             "Documentation": "Specifies the parameter name for the 'ChildContent' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -861,7 +871,8 @@
             "Documentation": "Specifies the parameter name for the 'NotAuthorized' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -901,7 +912,8 @@
             "Documentation": "Specifies the parameter name for the 'NotAuthorized' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -1649,7 +1661,8 @@
             "Documentation": "Specifies the parameter name for all child content expressions.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -1746,7 +1759,8 @@
             "Documentation": "Specifies the parameter name for all child content expressions.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -1786,7 +1800,8 @@
             "Documentation": "Specifies the parameter name for the 'Found' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -1826,7 +1841,8 @@
             "Documentation": "Specifies the parameter name for the 'Found' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -2069,7 +2085,8 @@
             "Documentation": "Specifies the parameter name for all child content expressions.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -2210,7 +2227,8 @@
             "Documentation": "Specifies the parameter name for all child content expressions.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -2250,7 +2268,8 @@
             "Documentation": "Specifies the parameter name for the 'ChildContent' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -2290,7 +2309,8 @@
             "Documentation": "Specifies the parameter name for the 'ChildContent' child content expression.",
             "Diagnostics": [],
             "Metadata": {
-              "Components.ChildContentParameterName": "True"
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
             },
             "BoundAttributeParameters": []
           }
@@ -14344,53 +14364,53 @@
   "RootNamespace": "circle_ci_asp_net_razor_pages",
   "Documents": [
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/Shared/_Layout.cshtml",
-      "TargetPath": "Pages/Shared/_Layout.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/NewToDoItem.cshtml",
+      "TargetPath": "Pages\\NewToDoItem.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/NewToDoItem.cshtml",
-      "TargetPath": "Pages/NewToDoItem.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/_ViewStart.cshtml",
-      "TargetPath": "Pages/_ViewStart.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/About.cshtml",
-      "TargetPath": "Pages/About.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/_ViewImports.cshtml",
-      "TargetPath": "Pages/_ViewImports.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/About.cshtml",
+      "TargetPath": "Pages\\About.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/Privacy.cshtml",
-      "TargetPath": "Pages/Privacy.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/ViewToDoItems.cshtml",
+      "TargetPath": "Pages\\ViewToDoItems.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/Error.cshtml",
-      "TargetPath": "Pages/Error.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/Shared/_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/ViewToDoItems.cshtml",
-      "TargetPath": "Pages/ViewToDoItems.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-asp-net-razor-pages/Pages/Index.cshtml",
-      "TargetPath": "Pages/Index.cshtml",
+      "FilePath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

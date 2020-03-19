@@ -19,7 +19,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/circle-ci-asp-net-razor-pages.csproj": {
+            "projectPath": "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/circle-ci-asp-net-razor-pages.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -31,6 +35,18 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "Microsoft.AspNetCore.Hosting": {
+          "target": "Package",
+          "version": "[2.2.7, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Testing": {
+          "target": "Package",
+          "version": "[3.1.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.InMemory": {
+          "target": "Package",
+          "version": "[3.1.2, )"
+        },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
           "version": "[16.2.0, )"
@@ -59,6 +75,9 @@
       "assetTargetFallback": true,
       "warn": true,
       "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
         "Microsoft.NETCore.App": {
           "privateAssets": "all"
         }

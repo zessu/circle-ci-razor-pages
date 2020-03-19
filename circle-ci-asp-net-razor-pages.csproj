@@ -5,12 +5,13 @@
     <RootNamespace>circle_ci_asp_net_razor_pages</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0-preview3.19554.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0-preview3.19554.8">
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0-preview3.19554.8">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -20,6 +21,25 @@
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Todo.Tests\obj\project.assets.json" />
     <_ContentIncludedByDefault Remove="Todo.Tests\obj\Todo.Tests.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="circle-ci-razor-pages.tests\bin\Debug\netcoreapp3.1\circle-ci-asp-net-razor-pages.deps.json" />
+    <_ContentIncludedByDefault Remove="circle-ci-razor-pages.tests\bin\Debug\netcoreapp3.1\circle-ci-razor-pages.tests.deps.json" />
+    <_ContentIncludedByDefault Remove="circle-ci-razor-pages.tests\bin\Debug\netcoreapp3.1\circle-ci-razor-pages.tests.runtimeconfig.dev.json" />
+    <_ContentIncludedByDefault Remove="circle-ci-razor-pages.tests\bin\Debug\netcoreapp3.1\circle-ci-razor-pages.tests.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="circle-ci-razor-pages.tests\obj\circle-ci-razor-pages.tests.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="circle-ci-razor-pages.tests\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="circle-ci-razor-pages.tests\obj\project.packagespec.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="circle-ci-razor-pages.tests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="circle-ci-razor-pages.tests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="circle-ci-razor-pages.tests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="circle-ci-razor-pages.tests\**" />
   </ItemGroup>
 
 </Project>

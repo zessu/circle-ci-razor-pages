@@ -10,6 +10,8 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("circle-ci-asp-net-razor-pages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=n" +
+    "ull", "/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages", "circle-ci-asp-net-razor-pages.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("circle-ci-razor-pages.tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -383,3 +383,4 @@
 /Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/circle-ci-razor-pages.tests/bin/Debug/netcoreapp3.1/System.Text.Json.dll
 /Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/circle-ci-razor-pages.tests/bin/Debug/netcoreapp3.1/circle-ci-asp-net-razor-pages.dll
 /Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/circle-ci-razor-pages.tests/bin/Debug/netcoreapp3.1/circle-ci-asp-net-razor-pages.pdb
+/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/circle-ci-razor-pages.tests/bin/Debug/netcoreapp3.1/AngleSharp.dll

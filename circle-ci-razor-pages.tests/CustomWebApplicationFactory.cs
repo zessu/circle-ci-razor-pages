@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace circle_ci_razor_pages.tests
 {
-   public class CustomWebApplicationFactory<TStartup>
-        : WebApplicationFactory<TStartup> where TStartup: circle_ci_asp_net_razor_pages.Startup
+   public class CustomWebApplicationFactory<T>
+        : WebApplicationFactory<T> where T: circle_ci_asp_net_razor_pages.Startup
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
@@ -42,7 +42,7 @@ namespace circle_ci_razor_pages.tests
                     var scopedServices = scope.ServiceProvider;
                     var db = scopedServices.GetRequiredService<DatabaseContext>();
                     var logger = scopedServices
-                        .GetRequiredService<ILogger<CustomWebApplicationFactory<TStartup>>>();
+                        .GetRequiredService<ILogger<CustomWebApplicationFactory<T>>>();
 
                     // Ensure the database is created.
                     db.Database.EnsureCreated();
@@ -50,7 +50,7 @@ namespace circle_ci_razor_pages.tests
                     try
                     {
                         // Seed the database with test data.
-                        // Utilities.InitializeDbForTests(db);
+                        Utilities.DatabaseInit.InitializeDbForTests(db);
                     }
                     catch (Exception ex)
                     {

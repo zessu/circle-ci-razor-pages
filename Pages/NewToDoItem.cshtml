@@ -7,7 +7,7 @@
 
 <a asp-page="ViewToDoItems">View Your TODOs</a>
 
-<form method="post" style="margin-bottom: 10px;">
+<form id="addItem" method="post" style="margin-bottom: 10px;">
   <div class="form-group row">
     <label asp-for="ToDoItem.name">Name</label>
     <input class="form-control" placeholder="Item Name" asp-for="ToDoItem.name"/>

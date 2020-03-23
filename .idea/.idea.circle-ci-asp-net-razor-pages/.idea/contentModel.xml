@@ -19,6 +19,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="circle-ci-razor-pages.tests.csproj" t="IncludeRecursive" />
         <e p="CustomWebApplicationFactory.cs" t="Include" />
+        <e p="IndexPageTests.cs" t="Include" />
+        <e p="NewToDoItemTest.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -27,6 +29,11 @@
           </e>
         </e>
         <e p="UnitTest1.cs" t="Include" />
+        <e p="Utilities" t="Include">
+          <e p="DatabaseInit.cs" t="Include" />
+          <e p="PageFinder.cs" t="Include" />
+        </e>
+        <e p="ViewToDoItemTest.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="DataContext.cs" t="Include" />
@@ -41,14 +48,7 @@
       <e p="Models" t="Include">
         <e p="Todo.cs" t="Include" />
       </e>
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="netcoreapp3.0" t="Include">
-            <e p="circle-ci-asp-net-razor-pages.AssemblyInfo.cs" t="Include" />
-            <e p="circle-ci-asp-net-razor-pages.RazorAssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
+      <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Pages" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />

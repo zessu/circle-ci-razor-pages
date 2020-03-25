@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace circle_ci_razor_pages.tests
 {
-   public class CustomWebApplicationFactory<T>
-        : WebApplicationFactory<T> where T: circle_ci_asp_net_razor_pages.Startup
+    public class CustomWebApplicationFactory<T>
+         : WebApplicationFactory<T> where T : class
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {

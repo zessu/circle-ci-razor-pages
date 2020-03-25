@@ -37,7 +37,7 @@
       "dependencies": {
         "AngleSharp": {
           "target": "Package",
-          "version": "[0.13.0, )"
+          "version": "[0.11.0, )"
         },
         "Microsoft.AspNetCore.Hosting": {
           "target": "Package",

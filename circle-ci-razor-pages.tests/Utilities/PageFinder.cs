@@ -13,7 +13,7 @@ namespace circle_ci_razor_pages.tests.Utilities
         public static async Task<IHtmlDocument> GetDocumentAsync(HttpResponseMessage response)
         {
             var content = await response.Content.ReadAsStringAsync();
-            var document = await BrowsingContext.New(Configuration.Default)
+            var document = await BrowsingContext.New()
                 .OpenAsync(ResponseFactory, CancellationToken.None);
             return (IHtmlDocument)document;
 

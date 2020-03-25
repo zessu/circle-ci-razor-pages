@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{3B01C509-34B2-4586-8FBA-FA79D3DCAC19}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/NewToDoItem.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="circle-ci-razor-pages.tests/NewToDoItemTest.cs">
     <Files>
-      <File FileName="Pages/NewToDoItem.cshtml.cs" Line="15" Column="14" />
-      <File FileName="Pages/ViewToDoItems.cshtml.cs" Line="28" Column="1" />
-      <File FileName="Models/todo.cs" Line="24" Column="1" />
+      <File FileName="circle-ci-razor-pages.tests/NewToDoItemTest.cs" Line="74" Column="1" />
+      <File FileName="circle-ci-razor-pages.tests/Utilities/PageFinder.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,12 +11,14 @@
             <Node name="circle-ci-asp-net-razor-pages" expanded="True">
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="NewToDoItem.cshtml" expanded="True">
-                  <Node name="NewToDoItem.cshtml.cs" selected="True" />
-                </Node>
+                <Node name="About.cshtml" expanded="True" />
+                <Node name="NewToDoItem.cshtml" expanded="True" />
                 <Node name="ViewToDoItems.cshtml" expanded="True" />
               </Node>
-              <Node name="Todo.Tests" expanded="True" />
+            </Node>
+            <Node name="circle-ci-razor-pages.tests" expanded="True">
+              <Node name="Utilities" expanded="True" />
+              <Node name="NewToDoItemTest.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -30,5 +31,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.circle-ci-asp-net-razor-pages PreferredExecutionTarget="/Applications/Microsoft Edge Beta.app" />
+  <MonoDevelop.Ide.ItemProperties.circle-ci-asp-net-razor-pages PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
 </Properties>

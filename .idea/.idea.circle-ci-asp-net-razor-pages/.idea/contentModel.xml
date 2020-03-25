@@ -48,7 +48,14 @@
       <e p="Models" t="Include">
         <e p="Todo.cs" t="Include" />
       </e>
-      <e p="obj" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="circle-ci-asp-net-razor-pages.AssemblyInfo.cs" t="Include" />
+            <e p="circle-ci-asp-net-razor-pages.RazorAssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Pages" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />

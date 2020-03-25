@@ -43,33 +43,52 @@ namespace circle_ci_razor_pages.tests
             NewToDoItemPage.EnsureSuccessStatusCode();
             var doc = await HtmlHelpers.GetDocumentAsync(NewToDoItemPage); // create Browsing Context
 
-            var form = doc.QuerySelector<IHtmlFormElement>("form[id='addItem']");
-            var submitButton = doc.QuerySelector<IHtmlFormElement>("button[id='addItemButton']");
-
             Dictionary<string, string> formData = new Dictionary<string, string>
             {
                 {"ToDoItem.name", "itemname"},
                 {"ToDoItem.description", "itemdescription"}
             };
-
+            
             // Act
             var response = await _httpClient.SendAsync(
-              form,
-              submitButton,
-              formData
+                (IHtmlFormElement)doc.QuerySelector("form[id='addItem']"),
+                (IHtmlButtonElement)doc.QuerySelector("button[id='addItemButton']"),
+                formData
             );
 
-            var res2 = await form.SubmitAsync(formData);
             var postContent = await HtmlHelpers.GetDocumentAsync(response);
 
             // Assert
             Assert.Equal(1, doc.Forms.Length);
             Assert.Equal(HttpStatusCode.OK, NewToDoItemPage.StatusCode);
-            Assert.Equal(HttpStatusCode.Redirect, response.StatusCode);
-            Assert.Equal("/", response.Headers.Location.OriginalString);
+            // Assert.Equal(HttpStatusCode.Redirect, response.StatusCode);
         }
 
-        // public async void Should_ReturnError_OnInValidFormData() { }
-
+        [Fact]
+        public async void Should_ReturnError_OnInValidFormData()
+        {
+            var NewToDoItemPage = await _httpClient.GetAsync("/new");
+            NewToDoItemPage.EnsureSuccessStatusCode();
+            var doc = await HtmlHelpers.GetDocumentAsync(NewToDoItemPage); // create Browsing Context
+        
+            Dictionary<string, string> formData = new Dictionary<string, string>
+            {
+            };
+            
+            // Act
+            HttpResponseMessage response = await _httpClient.SendAsync(
+                (IHtmlFormElement)doc.QuerySelector("form[id='addItem']"),
+                (IHtmlButtonElement)doc.QuerySelector("button[id='addItemButton']"),
+                formData
+            );
+        
+            var postContent = await HtmlHelpers.GetDocumentAsync(response);
+            
+        
+            // Assert
+            Assert.Equal("http://localhost/new", postContent.BaseUri);
+            Assert.Equal(HttpStatusCode.OK, NewToDoItemPage.StatusCode);
+            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        }
     }
 }

@@ -31,6 +31,7 @@
         <e p="UnitTest1.cs" t="Include" />
         <e p="Utilities" t="Include">
           <e p="DatabaseInit.cs" t="Include" />
+          <e p="HttpClientHelpers.cs" t="Include" />
           <e p="PageFinder.cs" t="Include" />
         </e>
         <e p="ViewToDoItemTest.cs" t="Include" />

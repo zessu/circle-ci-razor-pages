@@ -24,7 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "circle-ci-razor-pages.tests/1.0.0": {
         "dependencies": {
-          "AngleSharp": "0.13.0",
+          "AngleSharp": "0.11.0",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.AspNetCore.Mvc.Testing": "3.1.2",
           "Microsoft.EntityFrameworkCore.InMemory": "3.1.2",
@@ -286,14 +286,14 @@
           "circle-ci-razor-pages.tests.dll": {}
         }
       },
-      "AngleSharp/0.13.0": {
+      "AngleSharp/0.11.0": {
         "dependencies": {
           "System.Text.Encoding.CodePages": "4.5.0"
         },
         "runtime": {
           "lib/netstandard2.0/AngleSharp.dll": {
-            "assemblyVersion": "0.13.0.0",
-            "fileVersion": "0.13.0.0"
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
           }
         },
         "compile": {
@@ -2321,6 +2321,7 @@
       },
       "circle-ci-asp-net-razor-pages/1.0.0": {
         "dependencies": {
+          "AngleSharp": "0.11.0",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.EntityFrameworkCore": "3.1.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "3.1.0-preview3",
@@ -3811,12 +3812,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AngleSharp/0.13.0": {
+    "AngleSharp/0.11.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VaKQ7kLfjSXRlRys1vX5zlFUOHgF72kCVm5YZjzZwuAoOglQpsMyeavXMYrHGliqovk2yp/Cq7F/xDXJw6bBDQ==",
-      "path": "anglesharp/0.13.0",
-      "hashPath": "anglesharp.0.13.0.nupkg.sha512"
+      "sha512": "sha512-SyW+BU+aSlVoJTjJmC+g6X0uR671nPOOzqPR7bvYVh6dt6v58g0kfo7bHJoeOfb25YMM9iKy4sw51jwprRAukQ==",
+      "path": "anglesharp/0.11.0",
+      "hashPath": "anglesharp.0.11.0.nupkg.sha512"
     },
     "coverlet.collector/1.0.1": {
       "type": "package",

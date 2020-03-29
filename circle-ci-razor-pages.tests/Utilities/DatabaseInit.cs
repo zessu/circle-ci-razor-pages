@@ -17,17 +17,16 @@ namespace circle_ci_razor_pages.tests.Utilities
         {
             return new List<Todo>()
             {
-                new Todo() {name = "You're.", description = "mind"},
-                new Todo() {name = "Would", description = "energy"},
-                new Todo() {name = "Rational", description = "soul"}
+                new Todo() {name = "collect stamps", description = "stamp for sending mail"},
+                new Todo() {name = "research xd", description = "design course research"},
+                new Todo() {name = "Rational", description = "do article on rational thinking"}
             };
         }
 
         public static void PurgeDatabase(DatabaseContext context)
         {
-            context.Todo.RemoveRange();
+            context.Todo.RemoveRange(context.Todo); // remove the whole table
             context.SaveChanges();
         }
-
     }
 }

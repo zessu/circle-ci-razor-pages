@@ -51,6 +51,7 @@ namespace circle_ci_razor_pages.tests
                     try
                     {
                         // Seed the database with test data.
+                        Utilities.DatabaseInit.PurgeDatabase(db);
                         Utilities.DatabaseInit.InitializeDbForTests(db);
                     }
                     catch (Exception ex)

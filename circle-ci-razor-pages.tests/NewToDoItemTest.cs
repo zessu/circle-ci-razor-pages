@@ -62,7 +62,6 @@ namespace circle_ci_razor_pages.tests
             // Assert
             Assert.Equal(1, doc.Forms.Length);
             Assert.Equal(HttpStatusCode.OK, NewToDoItemPage.StatusCode);
-            Console.WriteLine(response);
             Assert.Equal(HttpStatusCode.Redirect, response.StatusCode);
         }
 

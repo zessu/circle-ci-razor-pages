@@ -34,6 +34,7 @@
           <e p="HttpClientHelpers.cs" t="Include" />
           <e p="PageFinder.cs" t="Include" />
         </e>
+        <e p="ViewToDoItemsTest.cs" t="Include" />
         <e p="ViewToDoItemTest.cs" t="Include" />
       </e>
       <e p="Data" t="Include">

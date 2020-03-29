@@ -14,6 +14,7 @@ namespace circle_ci_asp_net_razor_pages.Pages
   {
     [BindProperty]
     public Todo ToDoItem { get; set; }
+
     private DatabaseContext Context { get; }
  
     public NewToDoItemModel(DatabaseContext context)

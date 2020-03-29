@@ -8,6 +8,6 @@ namespace circle_ci_asp_net_razor_pages.Data
   {
     public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options) { }
 
-    public DbSet<Todo> Todo { get; }
+    public DbSet<Todo> Todo { get; set;  }
   }
 }

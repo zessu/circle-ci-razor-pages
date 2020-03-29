@@ -124,3 +124,5 @@
 /Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/obj/Debug/netcoreapp3.0/staticwebassets/circle-ci-asp-net-razor-pages.StaticWebAssets.Manifest.cache
 /Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/obj/Debug/netcoreapp3.0/staticwebassets/circle-ci-asp-net-razor-pages.StaticWebAssets.xml
 /Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/bin/Debug/netcoreapp3.0/AngleSharp.dll
+/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/obj/Debug/netcoreapp3.0/circle-ci-asp-net-razor-pages.csproj.CoreCompileInputs.cache
+/Users/makenzi/dev/projects/dotnet/circle-ci-razor/circle-ci-razor-pages/obj/Debug/netcoreapp3.0/circle-ci-asp-net-razor-pages.genruntimeconfig.cache

@@ -1,3 +1,4 @@
+using System;
 using Xunit;
 using System.Net;
 using System.Net.Http;
@@ -45,8 +46,8 @@ namespace circle_ci_razor_pages.tests
 
             Dictionary<string, string> formData = new Dictionary<string, string>
             {
-                {"ToDoItem.name", "itemname"},
-                {"ToDoItem.description", "itemdescription"}
+                {"name", "itemname"},
+                {"description", "itemdescription"}
             };
             
             // Act
@@ -61,7 +62,8 @@ namespace circle_ci_razor_pages.tests
             // Assert
             Assert.Equal(1, doc.Forms.Length);
             Assert.Equal(HttpStatusCode.OK, NewToDoItemPage.StatusCode);
-            // Assert.Equal(HttpStatusCode.Redirect, response.StatusCode);
+            Console.WriteLine(response);
+            Assert.Equal(HttpStatusCode.Redirect, response.StatusCode);
         }
 
         [Fact]

@@ -57,7 +57,6 @@ namespace circle_ci_razor_pages.tests.Utilities
                 submission.Headers.TryAddWithoutValidation(header.Key, header.Value);
                 submission.Content.Headers.TryAddWithoutValidation(header.Key, header.Value);
             }
-
             return client.SendAsync(submission);
         }
     }

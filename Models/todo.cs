@@ -18,6 +18,5 @@ namespace circle_ci_asp_net_razor_pages.Models
     public DateTime CreatedAt { get; set; }
     [DataType(DataType.Date)]
     public DateTime UpdatedAt { get; set; }
-
   }
 }

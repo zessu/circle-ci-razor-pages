@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
@@ -27,10 +28,11 @@ namespace circle_ci_asp_net_razor_pages.Pages
 
     public async Task<IActionResult> OnPostAsync()
     {
-      if (!ModelState.IsValid)
+      if (ToDoItem == null || !ModelState.IsValid)
       {
         return Page();
       }
+      Debug.WriteLine(ToDoItem);
       await Context.Todo.AddAsync(ToDoItem);
       await Context.SaveChangesAsync();
       return RedirectToPage("ViewToDoItems");

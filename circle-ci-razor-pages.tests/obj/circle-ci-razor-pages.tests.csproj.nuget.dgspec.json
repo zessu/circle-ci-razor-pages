@@ -17,15 +17,13 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/makenzi/.config/NuGet/NuGet.Config"
+          "/Users/makenzi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "http://packages.appriver.corp/nuget/public": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packages.appriver.corp/nuget/arnuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -109,15 +107,13 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/makenzi/.config/NuGet/NuGet.Config"
+          "/Users/makenzi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "http://packages.appriver.corp/nuget/public": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packages.appriver.corp/nuget/arnuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -156,6 +152,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
             },
             "coverlet.collector": {
               "target": "Package",

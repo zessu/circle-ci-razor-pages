@@ -47,6 +47,7 @@ namespace circle_ci_razor_pages.tests
             using (var context = new DatabaseContext(options))
             {
                 NewToDoItemModel page = new NewToDoItemModel(context);
+                page.ToDoItem = null;
                 context.Todo.RemoveRange(); // remove all data from database
                 page.OnPostAsync();
                 Assert.Equal(0, context.Todo.Count());
@@ -62,6 +63,7 @@ namespace circle_ci_razor_pages.tests
             dbContext.Setup(c => c.Todo).Returns(dbSet.Object);
 
             NewToDoItemModel page = new NewToDoItemModel(dbContext.Object);
+            page.ToDoItem = null;
             
             // act
             page.OnPostAsync();

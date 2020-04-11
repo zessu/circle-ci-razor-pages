@@ -32,7 +32,6 @@ namespace circle_ci_asp_net_razor_pages.Pages
       {
         return Page();
       }
-      Debug.WriteLine(ToDoItem);
       await Context.Todo.AddAsync(ToDoItem);
       await Context.SaveChangesAsync();
       return RedirectToPage("ViewToDoItems");

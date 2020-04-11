@@ -35,7 +35,8 @@
           <e p="Fixtures" t="Include">
             <e p="ToDoItemFixture.cs" t="Include" />
           </e>
-          <e p="UnitTest1.cs" t="Include" />
+          <e p="NewToDoItemTest.cs" t="Include" />
+          <e p="ViewToDoItemTest.cs" t="Include" />
         </e>
         <e p="Utilities" t="Include">
           <e p="DatabaseInit.cs" t="Include" />
@@ -45,7 +46,6 @@
       </e>
       <e p="Data" t="Include">
         <e p="DataContext.cs" t="Include" />
-        <e p="IDataContext.cs" t="Include" />
       </e>
       <e p="docker-compose.yml" t="Include" />
       <e p="Dockerfile" t="Include" />

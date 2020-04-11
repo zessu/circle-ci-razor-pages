@@ -12,10 +12,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace circle_ci_razor_pages.tests
 {
-    public class UnitTest1
+    public class NewTodoItemPage
     {
         [Fact]
-        public void NewToDoItemPageSavesValidItem()
+        public void Should_Save_Valid_Todo_item()
         {
             // arrange
             var dbContext = new Mock<DatabaseContext>();
@@ -34,7 +34,7 @@ namespace circle_ci_razor_pages.tests
         }
         
         [Fact]
-        public void NewToDoItemPageDoesNotSaveInvalidItem()
+        public void Should_Not_Save_Invalid_Todo_item()
         {
             // arrange
             var dbContext = new Mock<DatabaseContext>();

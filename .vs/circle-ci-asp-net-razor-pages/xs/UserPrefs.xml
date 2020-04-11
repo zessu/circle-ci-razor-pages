@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{3B01C509-34B2-4586-8FBA-FA79D3DCAC19}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/NewToDoItem.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
       <File FileName="circle-ci-razor-pages.tests/NewToDoItemTest.cs" Line="74" Column="1" />
-      <File FileName="circle-ci-razor-pages.tests/Utilities/PageFinder.cs" Line="1" Column="1" />
+      <File FileName="circle-ci-razor-pages.tests/Utilities/PageFinder.cs" />
       <File FileName="Pages/NewToDoItem.cshtml" Line="10" Column="63" />
+      <File FileName="Program.cs" Line="20" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,9 +14,10 @@
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="About.cshtml" expanded="True" />
-                <Node name="NewToDoItem.cshtml" expanded="True" selected="True" />
+                <Node name="NewToDoItem.cshtml" expanded="True" />
                 <Node name="ViewToDoItems.cshtml" expanded="True" />
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="circle-ci-razor-pages.tests" expanded="True">
               <Node name="Utilities" expanded="True" />

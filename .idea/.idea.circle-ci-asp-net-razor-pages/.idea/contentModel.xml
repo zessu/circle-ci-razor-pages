@@ -15,12 +15,15 @@
       <e p="circle-ci-asp-net-razor-pages.csproj" t="IncludeRecursive" />
       <e p="circle-ci-asp-net-razor-pages.sln" t="IncludeFlat" />
       <e p="circle-ci-razor-pages.tests" t="IncludeRecursive">
-        <e p="BasicTests.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="circle-ci-razor-pages.tests.csproj" t="IncludeRecursive" />
-        <e p="CustomWebApplicationFactory.cs" t="Include" />
-        <e p="IndexPageTests.cs" t="Include" />
-        <e p="NewToDoItemTest.cs" t="Include" />
+        <e p="Integration" t="Include">
+          <e p="BasicTests.cs" t="Include" />
+          <e p="CustomWebApplicationFactory.cs" t="Include" />
+          <e p="IndexPageTests.cs" t="Include" />
+          <e p="NewToDoItemTest.cs" t="Include" />
+          <e p="ViewToDoItemsTest.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -28,13 +31,14 @@
             </e>
           </e>
         </e>
-        <e p="UnitTest1.cs" t="Include" />
+        <e p="unit" t="Include">
+          <e p="UnitTest1.cs" t="Include" />
+        </e>
         <e p="Utilities" t="Include">
           <e p="DatabaseInit.cs" t="Include" />
           <e p="HttpClientHelpers.cs" t="Include" />
           <e p="PageFinder.cs" t="Include" />
         </e>
-        <e p="ViewToDoItemsTest.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="DataContext.cs" t="Include" />

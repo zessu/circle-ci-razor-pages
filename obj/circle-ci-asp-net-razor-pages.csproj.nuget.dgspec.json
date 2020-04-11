@@ -17,13 +17,15 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/makenzi/.nuget/NuGet/NuGet.Config"
+          "/Users/makenzi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "http://packages.appriver.corp/nuget/public": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.appriver.corp/nuget/arnuget": {}
         },
         "frameworks": {
           "netcoreapp3.0": {

@@ -30,8 +30,10 @@ namespace circle_ci_asp_net_razor_pages.Pages
     {
       if (ToDoItem == null || !ModelState.IsValid)
       {
+        Debug.WriteLine("we are not supposed to execute");
         return Page();
       }
+      Debug.WriteLine("sadsadsd");
       await Context.Todo.AddAsync(ToDoItem);
       await Context.SaveChangesAsync();
       return RedirectToPage("ViewToDoItems");

@@ -11,25 +11,27 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace circle_ci_razor_pages.tests
 {
   public class NewTodoItemPage
   {
-    private DbContextOptions<DatabaseContext> _options;
-    private DatabaseContext _context;
+    private readonly DbContextOptions<DatabaseContext> _options;
+    private readonly DatabaseContext _context;
 
     public NewTodoItemPage()
     {
       _options = new DbContextOptionsBuilder<DatabaseContext>()
-        .UseInMemoryDatabase(databaseName: "inMemoryTestDatabase")
+        .UseInMemoryDatabase(databaseName: "inMemoryTestDatabase", new InMemoryDatabaseRoot())
         .Options;
       _context = new DatabaseContext(_options);
-      _context.Todo.RemoveRange(); // remove all data from database
     }
 
     public void Dispose()
     {
+      _context.Todo.RemoveRange();
+      _context.Database.EnsureDeleted();
       _context.Dispose();
     }
     
@@ -44,7 +46,7 @@ namespace circle_ci_razor_pages.tests
     }
 
     [Fact]
-    public void Should_Not_Save_Invalid_Todo_item_Implementation_swap()
+    public void Should_Not_Save_Invalid_Todo_Item()
     {
         NewToDoItemModel page = new NewToDoItemModel(_context);
         page.ToDoItem = null;

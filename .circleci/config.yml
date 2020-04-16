@@ -12,7 +12,7 @@ commands:
   testapplication:
     description: "Run application tests"
     steps:
-      - run: "dotnet test"
+      - run: "dotnet test circle-ci-razor-pages.tests/circle-ci-razor-pages.tests.csproj"
 jobs:
   runtests: description
   build:

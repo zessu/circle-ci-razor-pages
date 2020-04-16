@@ -16,58 +16,40 @@ namespace circle_ci_razor_pages.tests
 {
   public class NewTodoItemPage
   {
+    private DbContextOptions<DatabaseContext> _options;
+    private DatabaseContext _context;
+
+    public NewTodoItemPage()
+    {
+      _options = new DbContextOptionsBuilder<DatabaseContext>()
+        .UseInMemoryDatabase(databaseName: "inMemoryTestDatabase")
+        .Options;
+      _context = new DatabaseContext(_options);
+      _context.Todo.RemoveRange(); // remove all data from database
+    }
+
+    public void Dispose()
+    {
+      _context.Dispose();
+    }
+    
     [Fact]
     public void Should_Save_Valid_Todo_item()
     {
       // arrange
-      var options = new DbContextOptionsBuilder<DatabaseContext>()
-          .UseInMemoryDatabase(databaseName: "inMemoryTestDatabase")
-          .Options;
-
-      using (var context = new DatabaseContext(options))
-      {
-        context.Todo.RemoveRange(); // remove all items from database
-        NewToDoItemModel page = new NewToDoItemModel(context);
+        NewToDoItemModel page = new NewToDoItemModel(_context);
         page.ToDoItem = ToDoItemFixture.ToDoItemTestFixture();
         page.OnPostAsync();
-      }
-
-      using (var context = new DatabaseContext(options))
-      {
-        Assert.Equal(1, context.Todo.Count());
-      }
+        Assert.Equal(1, _context.Todo.Count());
     }
 
     [Fact]
     public void Should_Not_Save_Invalid_Todo_item_Implementation_swap()
     {
-      var options = new DbContextOptionsBuilder<DatabaseContext>()
-          .UseInMemoryDatabase("inMemoryDatabase").Options;
-
-      using (var context = new DatabaseContext(options))
-      {
-        NewToDoItemModel page = new NewToDoItemModel(context);
+        NewToDoItemModel page = new NewToDoItemModel(_context);
         page.ToDoItem = null;
-        context.Todo.RemoveRange(); // remove all data from database
         page.OnPostAsync();
-        Assert.Equal(0, context.Todo.Count());
-      }
+        Assert.Equal(0, _context.Todo.Count());
     }
-
-    // [Fact]
-    // public void Should_Not_Save_Invalid_Todo_item()
-    // {
-    //     var dbContext = new Mock<DatabaseContext>();
-    //     var dbSet = new Mock<DbSet<Todo>>();
-    //     dbContext.Setup(c => c.Todo).Returns(dbSet.Object);
-
-    //     NewToDoItemModel page = new NewToDoItemModel(dbContext.Object);
-    //     page.ToDoItem = null;
-
-    //     page.OnPostAsync();
-
-    //     dbContext.Verify(m => m.Todo.AddAsync(It.IsAny<Todo>(), new CancellationToken()), Times.Never());
-    //     dbContext.Verify(m => m.SaveChangesAsync(new CancellationToken()), Times.Never);
-    // }
   }
 }
